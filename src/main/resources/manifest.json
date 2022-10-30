@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Somehow,",
   "version": "1.0.0",
   "description": "¯\\_(ツ)_/¯",
@@ -9,9 +9,7 @@
     "48": "icons/48x48.png",
     "128": "icons/128x128.png"
   },
-  "permissions": [
-    "https://starwars.fandom.com/wiki/*"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
