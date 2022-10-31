@@ -71,5 +71,8 @@ tasks.register<Zip>("dist") {
     destinationDirectory.set(layout.buildDirectory.dir("distributions"))
 }
 
+// Note for Firefox, `"manifest_version": 3` must be changed to `"manifest_version": 2` before building,
+// until https://bugzilla.mozilla.org/show_bug.cgi?id=1578284 is resolved.
+
 // Run `./gradlew refreshVersions` to update dependencies
 // Run `./gradlew browserDevelopmentWebpack` for tests and `./gradlew dist` to release

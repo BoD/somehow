@@ -58,7 +58,6 @@ fun main() {
                     .onceOrNotAtAll()
             )
         )
-
     val spaces = WhitespaceCharacter.oneOrMoreTimes()
     val firstWord = AnyCharacter.oneOrMoreTimes(QuantifierType.RELUCTANT)
     val regex = Sequence(
